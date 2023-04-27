@@ -4,12 +4,12 @@ export default function Header() {
   return (
     <div className="header">
       <div className="headerTitles">
-        <span className="headerTitleSm">Phoenix</span>
+        <span className="headerTitleSm">Phoenix.Learn</span>
         <span className="headerTitleLg"></span>
       </div>
       <img
         className="headerImg"
-        src="https://wallpapers.com/images/featured/7sn5o1woonmklx1h.jpg"
+        src="https://wallpaperaccess.com/full/1556608.jpg"
         alt=""
       />
     </div>

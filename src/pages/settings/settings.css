@@ -1,5 +1,6 @@
 .settings {
   display: flex;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .settingsWrapper {
@@ -21,7 +22,7 @@
 
 .settingsTitleDelete {
   color: red;
-  font-size: 12px;
+  font-size: 20px;
   cursor: pointer;
 }
 

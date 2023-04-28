@@ -28,7 +28,8 @@ function App() {
         <Route path="/post/:id">
           <Single />
         </Route>
-        <Route path="/write">{currentUser ? <Write /> : <Login />}</Route>
+        <Route path="/write">
+          {currentUser ? <Write /> : <Login />}</Route>
         <Route path="/settings">
           {currentUser ? <Settings /> : <Login />}
         </Route>

@@ -7,11 +7,11 @@ export default function Sidebar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT ME</span>
         <img
-          src="https://vgraphs.com/images/agents/phoenix-avatar.jpg"
+          src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
           alt=""
         />
         <p>
-          I'm 18 years old. Student of IITU at Cybersecurity.
+          I'm 18 years old. Student of IITU at Cybersecurity. I'm very happy that you visited my website! Have a nice time!
         </p>
       </div>
       <div className="sidebarItem">
@@ -40,7 +40,7 @@ export default function Sidebar() {
         </ul>
       </div>
       <div className="sidebarItem">
-        <span className="sidebarTitle">GOOD LUCK!</span>
+        <span className="sidebarTitle">THANK YOU !</span>
         <div className="sidebarSocial">
         </div>
       </div>

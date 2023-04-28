@@ -9,7 +9,7 @@ export default function Header() {
       </div>
       <img
         className="headerImg"
-        src="https://pibig.info/uploads/posts/2022-08/thumbs/1659402419_1-pibig-info-p-chernii-fon-v-krapinku-krasivo-1.jpg"
+        src="https://phonoteka.org/uploads/posts/2022-01/1643147648_1-phonoteka-org-p-chernii-fon-dlya-saita-1.jpg"
         alt=""
       />
     </div>

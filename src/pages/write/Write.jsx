@@ -1,11 +1,13 @@
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import "./write.css";
 
 export default function Write() {
   return (
     <div className="write">
+      <span className="writeTitle">Write your review</span>
       <img
         className="writeImg"
-        src="https://images.pexels.com/photos/6685428/pexels-photo-6685428.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+        src="https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000"
         alt=""
       />
       <form className="writeForm">
@@ -16,7 +18,7 @@ export default function Write() {
           <input id="fileInput" type="file" style={{ display: "none" }} />
           <input
             className="writeInput"
-            placeholder="Title"
+            placeholder="Write your name"
             type="text"
             autoFocus={true}
           />
@@ -24,14 +26,14 @@ export default function Write() {
         <div className="writeFormGroup">
           <textarea
             className="writeInput writeText"
-            placeholder="Tell your story..."
+            placeholder="Write your review"
             type="text"
             autoFocus={true}
           />
         </div>
-        <button className="writeSubmit" type="submit">
+        <Link className="writeSubmit" type="submit" to="/">
           Publish
-        </button>
+        </Link>
       </form>
     </div>
   );

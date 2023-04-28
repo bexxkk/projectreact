@@ -6,10 +6,10 @@ export default function Topbar() {
   return (
     <div className="top">
       <div className="topLeft">
-        <i className="topIcon fab fa-facebook-square"></i>
-        <i className="topIcon fab fa-instagram-square"></i>
-        <i className="topIcon fab fa-pinterest-square"></i>
-        <i className="topIcon fab fa-twitter-square"></i>
+        <a href="https://ru-ru.facebook.com/" className="topIcon fab fa-facebook-square"></a>
+        <a href="https://instagram.com/bexxkk?igshid=YmMyMTA2M2Y=" className="topIcon fab fa-instagram-square"></a>
+        <a href="https://ru.pinterest.com/" className="topIcon fab fa-pinterest-square"></a>
+        <a href="https://twitter.com/?lang=ru" className="topIcon fab fa-twitter-square"></a>
       </div>
       <div className="topCenter">
         <ul className="topList">
@@ -19,10 +19,10 @@ export default function Topbar() {
             </Link>
           </li>
           <li className="topListItem">
-            <Link className="link" to="#">
+            <Link className="link" to="/register">
               ABOUT US
             </Link></li>
-          <li className="topListItem">CONTACT</li>
+          
           <li className="topListItem">
             <Link className="link" to="/write">
               WRITE
@@ -38,13 +38,8 @@ export default function Topbar() {
       <div className="topRight">
           <ul className="topList">
             <li className="topListItem">
-              <Link className="link" to="/">
-                LOGIN
-              </Link>
-            </li>
-            <li className="topListItem">
-              <Link className="link" to="/register">
-                REGISTER
+              <Link className="link" to="/login">
+                LOG IN
               </Link>
             </li>
           </ul>

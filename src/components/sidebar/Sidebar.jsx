@@ -15,7 +15,7 @@ export default function Sidebar() {
         </p>
       </div>
       <div className="sidebarItem">
-        <span className="sidebarTitle">MY HOSTING </span>
+        <span className="sidebarTitle">MY INTERESTS </span>
         <ul className="sidebarList">
           <li className="sidebarListItem">
             <Link className="link" to="/posts?cat=Life">
@@ -34,7 +34,7 @@ export default function Sidebar() {
           </li>
           <li className="sidebarListItem">
             <Link className="link" to="/posts?cat=Style">
-              Telegrams 
+              Valorant 
             </Link>
           </li>
         </ul>

@@ -8,8 +8,9 @@
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    url("https://preview.redd.it/a6ky04nktj251.png?width=3840&format=png&auto=webp&s=5a1d0c1b79e86dc80b687088c52f7517caadb910");
   background-size: cover;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .loginTitle {
@@ -46,6 +47,7 @@
   border: none;
   border-radius: 10px;
   text-align: center;
+  text-decoration: none;
 }
 
 .loginRegisterButton {

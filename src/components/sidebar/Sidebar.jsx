@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./sidebar.css";
 
 export default function Sidebar() {
@@ -18,24 +17,24 @@ export default function Sidebar() {
         <span className="sidebarTitle">MY INTERESTS </span>
         <ul className="sidebarList">
           <li className="sidebarListItem">
-            <Link className="link" to="/posts?cat=Life">
+            <a className="link">
               Insta
-            </Link>
+            </a>
           </li>
           <li className="sidebarListItem">
-            <Link className="link" to="/posts?cat=Music">
+            <a className="link" >
               Music
-            </Link>
+            </a>
           </li>
           <li className="sidebarListItem">
-            <Link className="link" to="/posts?cat=Sport">
+            <a className="link" >
               TikTok
-            </Link>
+            </a>
           </li>
           <li className="sidebarListItem">
-            <Link className="link" to="/posts?cat=Style">
+            <a className="link">
               Valorant 
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

@@ -17,15 +17,7 @@ export default function Settings() {
               src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
               alt=""
             />
-            <label htmlFor="fileInput">
-              <i className="settingsPPIcon far fa-user-circle"></i>{" "}
-            </label>
-            <input
-              id="fileInput"
-              type="file"
-              style={{ display: "none" }}
-              className="settingsPPInput"
-            />
+            
           </div>
           <label>Username</label>
           <input type="text" placeholder="Enter your name" name="name" />
